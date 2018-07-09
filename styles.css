@@ -1,31 +1,39 @@
 html {
-	background: url(https://tinyurl.com/y7wkdvvd)  bottom center;
+	background: url("./images/background.jpg");
 	background-size: cover;
 	}
 
+body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-align: center;
+}
+
 h1 {
-	margin-left: 4%;
-	color: green;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: Helvetica;
-	font-size: 30pt
+	font-size: 3em;
 }
 
 h2 {
-	margin-left: 4%;
-	color: darkgreen;
+	/*margin-left: 4%;*/
 	font-family: Helvetica;
 	font-size: 25pt;
 }
 
 h4 {
-	margin-left: 4%;
-	color: darkgreen;
+	/*margin-left: 4%;*/
 	font-family: Helvetica;
 	font-size: 22pt;
 }
 
 p {
-	margin-left: 6%;
+	/*margin-left: 6%;*/
 	font-family: Helvetica;
 	font-size: 14pt;
 	color: white;
@@ -35,7 +43,31 @@ p {
 }
 
 img {
-	margin-left: 6%;
+	height: 300px;
+	width: 450px;
 	position: center;
 	border-radius: 15px;
+	padding: 10px;
 }
+
+#container {
+	display: block;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#jude {
+	max-width: 500px;
+	height: inherit;
+}
+
+#star {
+	max-width: 500px;
+	height: inherit;
+}
+
+#garage {
+	height: inherit;
+}
+
