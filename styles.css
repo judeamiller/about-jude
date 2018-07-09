@@ -1,5 +1,41 @@
+html {
+	background: url(https://tinyurl.com/y7wkdvvd)  bottom center;
+	background-size: cover;
+	}
+
 h1 {
+	margin-left: 4%;
 	color: green;
 	font-family: Helvetica;
-	font-size: 18pt
+	font-size: 30pt
+}
+
+h2 {
+	margin-left: 4%;
+	color: darkgreen;
+	font-family: Helvetica;
+	font-size: 25pt;
+}
+
+h4 {
+	margin-left: 4%;
+	color: darkgreen;
+	font-family: Helvetica;
+	font-size: 22pt;
+}
+
+p {
+	margin-left: 6%;
+	font-family: Helvetica;
+	font-size: 14pt;
+	color: white;
+	background: gray;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+img {
+	margin-left: 6%;
+	position: center;
+	border-radius: 15px;
 }
