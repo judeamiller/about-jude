@@ -63,11 +63,15 @@ img {
 }
 
 #star {
+	margin: 0 auto;
+	display: block;
 	max-width: 500px;
 	height: inherit;
 }
 
 #garage {
+	margin: 0 auto;
+	display: block;
 	height: inherit;
 }
 
